@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import PeriodTracker from '@/components/PeriodTracker'
+import MenstrualHealthAssistant from '@/components/MenstrualHealthAssistant'
 
 const page = () => {
   return (
@@ -26,6 +27,7 @@ const page = () => {
         <h6 className='font-bold'>Period Tracker</h6>
       </div>
       </a>
+      <a href="#quickji">
          <div className='h-14 m-3 w-64 flex justify-evenly items-center align-center p-2 rounded-lg uppercase text-white bg-gradient-to-br from-pink-400 to-red-600'>
               <Image 
           src="/ggg.png"
@@ -33,8 +35,10 @@ const page = () => {
           width={60}
           className='  '
           alt="" />
+        
         <h6 className='font-bold'>Quick Symptom test</h6>
       </div>
+        </a>
       </div>
     <Image 
 src="/ptim32.png"
@@ -44,6 +48,7 @@ className='h-64  w-auto object-fit absolute bottom-0 mask-target left-0'
 alt="" />
     </div>
     <PeriodTracker/>
+    <MenstrualHealthAssistant/>
    </>
   )
 }
