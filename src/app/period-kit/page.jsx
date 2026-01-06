@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 export default function Kit() {
   return (
     <main className="h-screen w-screen overflow-auto bg-pink-50 text-slate-800 font-sans">
@@ -41,10 +42,13 @@ export default function Kit() {
             </ul>
           </div>
           <div className="w-full md:w-96 bg-slate-50 rounded-xl p-6 shadow-inner flex flex-col items-center">
-            <div className="h-48 w-full rounded-lg bg-gradient-to-br from-slate-100 to-white border border-slate-100 flex items-center justify-center">
-              <svg className="h-28 w-28 text-teal-400" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M12 2a5 5 0 015 5v10a5 5 0 01-5 5 5 5 0 01-5-5V7a5 5 0 015-5z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+            <div className="h-64 w-full rounded-lg bg-gradient-to-br from-slate-100 to-white border border-slate-100 flex items-center justify-center">
+              <Image 
+              src="/pkit.jpeg"
+              height={400}
+              width={300}
+              className='h-64 w-auto object-fit'
+              alt="" />
             </div>
             <div className="mt-4 text-center">
               <p className="text-sm text-slate-600">Compact, discreet pouch</p>
