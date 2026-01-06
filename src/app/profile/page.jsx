@@ -15,6 +15,7 @@ const page = () => {
 </div>
       </div>
       <div className='flex flex-row absolute mt-30 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'>
+      <a href="#PeriodTracker">
         <div className='h-14 m-3 w-64 flex justify-evenly items-center align-center p-2 rounded-lg uppercase text-white   bg-gradient-to-br from-pink-400 to-red-600'>
               <Image 
           src="/ptim32.png"
@@ -24,6 +25,7 @@ const page = () => {
           alt="" />
         <h6 className='font-bold'>Period Tracker</h6>
       </div>
+      </a>
          <div className='h-14 m-3 w-64 flex justify-evenly items-center align-center p-2 rounded-lg uppercase text-white bg-gradient-to-br from-pink-400 to-red-600'>
               <Image 
           src="/ggg.png"

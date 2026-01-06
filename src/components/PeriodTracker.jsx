@@ -39,7 +39,7 @@ const PeriodTracker = () => {
   };
 
   return (
-    <div className="h-screen w-screen bg-pink-50 flex items-center justify-center font-sans flex-col ">
+    <div  id='PeriodTracker' className="h-screen w-screen bg-pink-50 flex items-center justify-center font-sans flex-col ">
       <h2 className='text-3xl font-bold uppercase text-pink-800 m-10'>Period Tracker</h2>
       <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-pink-100">
         <div className="text-center mb-8">

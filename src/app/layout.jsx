@@ -11,6 +11,7 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs'
+import NavCenter from "@/components/NavCenter";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
           <Navbar/>
+          <NavCenter/>
           <header className="flex justify-end items-center  p-4 gap-4 h-16">
            <SignedOut>
   <SignInButton afterSignInUrl="/profile" afterSignUpUrl="/profile" />
