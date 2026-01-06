@@ -26,7 +26,7 @@ height={200}
 width={600}
 className='h-96  w-auto object-fit absolute bottom-0 left-0'
 alt="" />
- <div className=" bg-red-400 p-4 pt-3 pb-3 rounded-full w-auto absolute left-[95vh] top-1/2">
+ <div className=" bg-gradient-to-br from-pink-400 to-red-600 p-4 pt-3 pb-3 rounded-full w-auto absolute left-[95vh] top-1/2">
  <h6 className='capitalize text-white font-semibold'>Check your health Now</h6></div>
  
     </div>
