@@ -6,7 +6,7 @@ const NavCenter = () => {
   return (
     <>
 
-      <nav className=' p-3 pb-3 pt-2 pb-0 w-1/2 flex justify-evenly  flex-row bg-white absolute top-0 left-1/2 -translate-x-1/2 -translate-y-0 z-45 items-center'>
+      <nav className='  w-1/2 flex justify-evenly  flex-row bg-white absolute top-0 left-1/2 -translate-x-1/2 -translate-y-0 z-45 items-center'>
      
       <Link href='/' target="_self" >
         <h3 className="text-sm m-2 p-2 rounded-full uppercase hover:bg-red-400 font-poppins text-red-800 hover:text-white font-bold">Home </h3>

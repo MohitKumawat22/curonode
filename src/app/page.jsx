@@ -6,7 +6,7 @@ import Link from 'next/link';
 const page = () => {
   return (
     <>
-    <div className='h-screen w-screen   flex justify-center'>
+    <div className='h-screen w-screen z-10  flex justify-center'>
       <div className='h-1/2 w-full  flex justify-center flex-col items-center m-2 p-3'>
 
       <h2 className='text-5xl font-bold capitalized text-[#AB3A33] magnet-target'>Understanding symptoms ,Empowering decisions</h2>
@@ -33,13 +33,13 @@ alt="" />
   </Link>
     </div>
    
-    <div>
-    {/* <Image 
-src="/bgbgb.png"
-height={100}
-width={100}
-className='h-full w-full  w-auto object-fit absolute bottom-0 right-0'
-alt="" /> */}
+    <div className='z-5'>
+    <Image 
+src="/bgbgb.jpeg"
+height={900}
+width={900}
+className='h-full w-full  w-auto object-fit absolute opacity-10 bottom-0 right-0'
+alt="" />
     </div>
     </>
   )
